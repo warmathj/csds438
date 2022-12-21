@@ -1,0 +1,36 @@
+
+Due to MODULEPATH changes the following have been reloaded:
+  1) openmpi/2.0.1
+
+/home/tkv3/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+loading: cane
+loaded: cane successfully
+loading: cavallo
+loaded: cavallo successfully
+loading: elefante
+loaded: elefante successfully
+loading: farfalla
+loaded: farfalla successfully
+loading: gallina
+loaded: gallina successfully
+loading: gatto
+loaded: gatto successfully
+loading: mucca
+loaded: mucca successfully
+loading: pecora
+loaded: pecora successfully
+loading: scoiattolo
+loaded: scoiattolo successfully
+loading: ragno
+loaded: ragno successfully
+all files loaded
+training...
+Accuracy of Logistic Regression:  0.31194295900178254
+Time for Logistic Regression:  299.01926279067993
