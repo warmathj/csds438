@@ -1,0 +1,34 @@
+
+Due to MODULEPATH changes the following have been reloaded:
+  1) openmpi/2.0.1
+
+loading: cane
+loaded: cane successfully
+loading: cavallo
+loaded: cavallo successfully
+loading: elefante
+loaded: elefante successfully
+loading: farfalla
+loaded: farfalla successfully
+loading: gallina
+loaded: gallina successfully
+loading: gatto
+loaded: gatto successfully
+loading: mucca
+loaded: mucca successfully
+loading: pecora
+loaded: pecora successfully
+loading: scoiattolo
+loaded: scoiattolo successfully
+loading: ragno
+loaded: ragno successfully
+all files loaded
+training decision tree
+Accuracy of Decision Tree:  0.26024955436720143
+Time for Decision Tree:  1876.1818478107452
+training random forest (n=10)
+Accuracy of Random Forest (n=10):  0.3268398268398268
+Time for Random Forest (n=10):  51.33602976799011
+training random forest (n=100)
+Accuracy of Random Forest (n=100):  0.40896358543417366
+Time for Random forest (n=100):  467.78327226638794
