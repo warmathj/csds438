@@ -1,6 +1,7 @@
 import os 
 import numpy as np
 import pandas as pd
+import time
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
@@ -10,14 +11,9 @@ from skimage.transform import resize
 
 
 #@jit(parallel=True)
-categories= ["cane", "cavallo", "elefante", "farfalla", "gallina", "gatto", "mucca", "pecora", "scoiattolo","ragno"]
-flat_data_arr=[] #input array
-target_arr=[] #output array
-datadir='./raw-img'
-
 def get_data():
 
-    categories= ["cane", "cavallo"]#, "elefante", "farfalla", "gallina", "gatto", "mucca", "pecora", "scoiattolo","ragno"]
+    categories= ["cane", "cavallo", "elefante", "farfalla", "gallina", "gatto", "mucca", "pecora", "scoiattolo","ragno"]
     flat_data_arr=[]
     target_arr=[]
     datadir='./raw-img'
@@ -36,7 +32,7 @@ def get_data():
     target=np.array(target_arr)
     df=pd.DataFrame(flat_data)
     df['Target']=target
-    X=df.iloc[:,:-1]
+    x=df.iloc[:,:-1]
     y=df.iloc[:,-1]
 
     return x, y
@@ -46,7 +42,7 @@ if __name__ == '__main__':
     x, y = get_data()
     print('all files loaded')
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1)
+    X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=1)
 
     print('training...')
 
