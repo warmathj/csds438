@@ -1,0 +1,28 @@
+
+Due to MODULEPATH changes the following have been reloaded:
+  1) openmpi/2.0.1
+
+loading: cane
+loaded: cane successfully
+loading: cavallo
+loaded: cavallo successfully
+loading: elefante
+loaded: elefante successfully
+loading: farfalla
+loaded: farfalla successfully
+loading: gallina
+loaded: gallina successfully
+loading: gatto
+loaded: gatto successfully
+loading: mucca
+loaded: mucca successfully
+loading: pecora
+loaded: pecora successfully
+loading: scoiattolo
+loaded: scoiattolo successfully
+loading: ragno
+loaded: ragno successfully
+all files loaded
+training...
+Accuracy of Logistic Regression:  0.0766488413547237
+Time for Logistic Regression:  1636.2240960597992

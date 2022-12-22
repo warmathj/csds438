@@ -51,5 +51,5 @@ if __name__ == '__main__':
     linReg = linReg.fit(X_train, y_train)
     y_pred = linReg.predict(X_test)
 
-    print("Accuracy of Linear Regression: ", accuracy_score(y_test, y_pred))
-    print("Time for Linear Regression: ", time.time() - start_time)
+    print("Accuracy of Logistic Regression: ", accuracy_score(y_test, np.rint(y_pred)))
+    print("Time for Logistic Regression: ", time.time() - start_time)
